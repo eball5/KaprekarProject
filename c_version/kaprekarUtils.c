@@ -1,7 +1,3 @@
-#include<math.h>
-
-#include "kaprekarUtils.h"
-
 /**
  * <p>This function tests whether the given input <code>n</code>
  * is a Kaprekar Number or not.  A Kaprekar Number is a non-negative
@@ -22,6 +18,11 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar Number, 
  * <code>false</code> otherwise.
  */
+
+#include<math.h>
+
+#include "kaprekarUtils.h"
+
 int isKaprekar(int n) {
 
   if(n < 1) {
